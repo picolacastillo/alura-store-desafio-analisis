@@ -47,7 +47,7 @@ Durante el análisis se generaron distintos gráficos y conclusiones, entre ello
 
 ### Ejemplo 1: Ingresos Totales por Tienda
 
-```python
+
 ingresos = [ingreso_tienda_1, ingreso_tienda_2, ingreso_tienda_3, ingreso_tienda_4]
 tiendas = ['Tienda 1', 'Tienda 2', 'Tienda 3', 'Tienda 4']
 
