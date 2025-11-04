@@ -20,14 +20,15 @@ Para ello, se desarrolló un proceso automatizado de análisis y visualización 
 
 ## 🧱 Estructura del proyecto
 
-El repositorio está organizado de la siguiente manera:
+El archivo principal, analisis_tienda_alura.ipynb, contiene los siguientes pasos del análisis de datos:
 
-alura-store-desafio-analisis/
-│
-├── notebooks/
-│ └── analisis_tienda_alura.ipynb # Notebook principal con el análisis completo
-│
-└── README.md # Documentación general del proyecto
+Importación de Datos: Carga de la información de ventas desde varias tiendas.
+
+Limpieza y Unificación: Proceso para asegurar que los datos estén listos para el análisis.
+
+Función Clave: Definición de obtener_resumen_tienda(), una función que automatiza la identificación de los productos más y menos vendidos.
+
+Visualizaciones: Creación de gráficos para comparar resultados y obtener insights entre las diferentes tiendas.
 
 
 
