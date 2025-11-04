@@ -58,6 +58,7 @@ La tienda con mayores ventas supera significativamente el promedio de las demás
 Los productos con menores ventas podrían estar asociados a categorías poco demandadas o estrategias de marketing menos efectivas.
 
 ⚙️ Instrucciones para ejecutar el notebook
+
 🔹 Opción 1: En Google Colab
 
 Haz clic aquí para abrir el notebook directamente:
