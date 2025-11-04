@@ -34,7 +34,9 @@ alura-store-desafio-analisis/
 └── README.md # Documentación general del proyecto
 
 
+
 ### Descripción del notebook principal
+
 El archivo `analisis_tienda_alura.ipynb` contiene:
 - **Importación de datos** desde varias tiendas.  
 - **Limpieza y unificación** de la información.  
@@ -47,34 +49,32 @@ El archivo `analisis_tienda_alura.ipynb` contiene:
 
 Durante el análisis se generaron distintos gráficos y conclusiones, entre ellos:
 
+### Ejemplo 1: Ingresos Totales por Tienda
+
+```python
 ingresos = [ingreso_tienda_1, ingreso_tienda_2, ingreso_tienda_3, ingreso_tienda_4]
 tiendas = ['Tienda 1', 'Tienda 2', 'Tienda 3', 'Tienda 4']
 
 plt.figure(figsize=(8, 5))
-plt.bar(tiendas, ingresos, color = ['#5DADE2','#58D68D','#F5B041','#AF7AC5'])
+plt.bar(tiendas, ingresos, color=['#5DADE2','#58D68D','#F5B041','#AF7AC5'])
 plt.title('Ingresos Totales por Tienda')
 plt.ylabel('Ingresos')
-plt.grid(axis='y',linestyle='--',alpha=0.7)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 
-Un gráfico de barras que muestra las **ventas totales por tienda**, facilitando la comparación del rendimiento general.
+📈 Descripción:
+Un gráfico de barras que muestra las ventas totales por tienda, facilitando la comparación del rendimiento general.
 
-t(kind='bar', x='Tienda', y='Total Ventas', legend=False)
+Principales insights
 
- Principales insights
+Algunas tiendas presentan una mayor diversidad de productos vendidos, lo que sugiere mejor rotación de inventario.
 
-Algunas tiendas presentan una mayor diversidad de productos vendidos, lo que sugiere una mejor rotación de inventario.
+La tienda con mayores ventas supera significativamente el promedio de las demás.
 
-La tienda con mayores ventas logra superar significativamente el promedio de las demás.
+Los productos con menores ventas podrían estar asociados a categorías poco demandadas o estrategias de marketing menos efectivas.
 
-Los productos con menores ventas podrían estar asociados a categorías poco demandadas o a estrategias de marketing menos efectivas.
-
-Instrucciones para ejecutar el notebook
+⚙️ Instrucciones para ejecutar el notebook
 🔹 Opción 1: En Google Colab
 
 Haz clic aquí para abrir el notebook directamente:
-
-
-Ejecuta las celdas en orden para reproducir todo el análisis.
-
-🔹 Opción 2: En tu entorno local
+https://colab.research.google.com/drive/github.com/picolacastillo/alura-store-desafio-analisis/blob/main/notebooks/analisis_tienda_alura.ipynb
