@@ -20,25 +20,12 @@ Para ello, se desarrolló un proceso automatizado de análisis y visualización 
 
 ## 🧱 Estructura del proyecto
 
-El archivo principal, analisis_tienda_alura.ipynb, contiene los siguientes pasos del análisis de datos:
+El archivo clave, `analisis_tienda_alura.ipynb`, contiene el flujo completo del **Análisis Exploratorio de Datos (EDA)** y los insights obtenidos:
 
-Importación de Datos: Carga de la información de ventas desde varias tiendas.
-
-Limpieza y Unificación: Proceso para asegurar que los datos estén listos para el análisis.
-
-Función Clave: Definición de obtener_resumen_tienda(), una función que automatiza la identificación de los productos más y menos vendidos.
-
-Visualizaciones: Creación de gráficos para comparar resultados y obtener insights entre las diferentes tiendas.
-
-
-
-### Descripción del notebook principal
-
-El archivo `analisis_tienda_alura.ipynb` contiene:
-- **Importación de datos** desde varias tiendas.  
-- **Limpieza y unificación** de la información.  
-- **Creación de la función `obtener_resumen_tienda()`**, que resume automáticamente los productos más y menos vendidos.  
-- **Visualizaciones** para comparar resultados entre tiendas.
+- **Importación de Datos:** Carga de la información de ventas desde múltiples fuentes (las diferentes tiendas).  
+- **Limpieza y Unificación:** Proceso esencial para asegurar la calidad y coherencia de los datos antes de analizarlos.  
+- **Función Clave (`obtener_resumen_tienda()`):** Automatiza la identificación de los productos más y menos vendidos por tienda.  
+- **Visualizaciones:** Creación de gráficos comparativos para facilitar la interpretación de resultados y la obtención de insights de negocio.
 
 ---
 
@@ -74,7 +61,8 @@ Los productos con menores ventas podrían estar asociados a categorías poco dem
 🔹 Opción 1: En Google Colab
 
 Haz clic aquí para abrir el notebook directamente:
-https://colab.research.google.com/drive/github.com/picolacastillo/alura-store-desafio-analisis/blob/main/notebooks/analisis_tienda_alura.ipynb
+
+https://colab.research.google.com/github/picolacastillo/alura-store-desafio-analisis/blob/main/notebooks/analisis_tienda_alura.ipynb
 
 🔹 Opción 2: En tu entorno local
 
