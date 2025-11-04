@@ -47,7 +47,7 @@ Durante el análisis se generaron distintos gráficos y conclusiones, entre ello
 
 ### Ejemplo 1: Ingresos Totales por Tienda
 
-
+```python
 ingresos = [ingreso_tienda_1, ingreso_tienda_2, ingreso_tienda_3, ingreso_tienda_4]
 tiendas = ['Tienda 1', 'Tienda 2', 'Tienda 3', 'Tienda 4']
 
@@ -57,7 +57,7 @@ plt.title('Ingresos Totales por Tienda')
 plt.ylabel('Ingresos')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
-
+```
 📈 Descripción:
 Un gráfico de barras que muestra las ventas totales por tienda, facilitando la comparación del rendimiento general.
 
@@ -78,11 +78,13 @@ https://colab.research.google.com/drive/github.com/picolacastillo/alura-store-de
 🔹 Opción 2: En tu entorno local
 
 Clona el repositorio:
+
 https://github.com/picolacastillo/alura-store-desafio-analisis.git
 
 Instala las librerías necesarias:
+```python
 pip install pandas matplotlib seaborn
-
+```
 Abre el notebook en Jupyter Notebook o VS Code y ejecuta todas las celdas.
 
 🧩 Autor
