@@ -77,6 +77,7 @@ pip install pandas matplotlib seaborn
 ```
 Abre el notebook en Jupyter Notebook o VS Code y ejecuta todas las celdas.
 
+
 🧩 Autor
 
 Proyecto realizado por Nicole Karina Castillo Rivera
