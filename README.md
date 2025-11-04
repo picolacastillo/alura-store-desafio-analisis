@@ -27,10 +27,6 @@ alura-store-desafio-analisis/
 ├── notebooks/
 │ └── analisis_tienda_alura.ipynb # Notebook principal con el análisis completo
 │
-├── data/ # (Opcional) Carpeta para almacenar datasets locales
-│
-├── images/ # (Opcional) Gráficos exportados del análisis
-│
 └── README.md # Documentación general del proyecto
 
 
@@ -78,3 +74,18 @@ Los productos con menores ventas podrían estar asociados a categorías poco dem
 
 Haz clic aquí para abrir el notebook directamente:
 https://colab.research.google.com/drive/github.com/picolacastillo/alura-store-desafio-analisis/blob/main/notebooks/analisis_tienda_alura.ipynb
+
+🔹 Opción 2: En tu entorno local
+
+Clona el repositorio:
+https://github.com/picolacastillo/alura-store-desafio-analisis.git
+
+Instala las librerías necesarias:
+pip install pandas matplotlib seaborn
+
+Abre el notebook en Jupyter Notebook o VS Code y ejecuta todas las celdas.
+
+🧩 Autor
+
+Proyecto realizado por Nicole Karina Castillo Rivera
+💻 Desafío de Data Science – Alura Latam
